@@ -1,6 +1,8 @@
-package securityconfig;
+package com.raju.spring_security_learn.securityconfig;
 
-import jwt.JwtAuthenticationFilter;
+
+import com.raju.spring_security_learn.jwt.JwtAuthenticationFilter;
+import com.raju.spring_security_learn.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +17,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import service.UserService;
+
 
 @Configuration
 @EnableWebSecurity

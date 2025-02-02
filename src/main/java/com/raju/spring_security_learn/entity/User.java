@@ -1,4 +1,4 @@
-package entity;
+package com.raju.spring_security_learn.entity;
 
 import jakarta.persistence.*;
 import org.springframework.security.core.GrantedAuthority;

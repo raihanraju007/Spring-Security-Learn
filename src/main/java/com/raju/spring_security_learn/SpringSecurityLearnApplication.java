@@ -1,4 +1,5 @@
-package com.example.Spring.Security.Learn;
+package com.raju.spring_security_learn;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

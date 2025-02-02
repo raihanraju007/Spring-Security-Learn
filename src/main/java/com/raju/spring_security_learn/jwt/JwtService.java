@@ -1,14 +1,16 @@
-package jwt;
+package com.raju.spring_security_learn.jwt;
 
 
-import entity.User;
+
+import com.raju.spring_security_learn.entity.User;
+import com.raju.spring_security_learn.repository.TokenRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
-import repository.TokenRepository;
+
 
 import javax.crypto.SecretKey;
 import java.util.Date;

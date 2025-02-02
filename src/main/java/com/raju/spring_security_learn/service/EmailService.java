@@ -1,4 +1,4 @@
-package service;
+package com.raju.spring_security_learn.service;
 
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;

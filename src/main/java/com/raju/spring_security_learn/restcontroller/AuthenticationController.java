@@ -1,11 +1,13 @@
-package restcontroller;
+package com.raju.spring_security_learn.restcontroller;
 
-import entity.AuthenticationResponse;
-import entity.User;
+
+import com.raju.spring_security_learn.entity.AuthenticationResponse;
+import com.raju.spring_security_learn.entity.User;
+import com.raju.spring_security_learn.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.AuthService;
+
 
 @RestController
 public class AuthenticationController {

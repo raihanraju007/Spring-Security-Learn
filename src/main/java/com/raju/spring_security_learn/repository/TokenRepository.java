@@ -1,6 +1,7 @@
-package repository;
+package com.raju.spring_security_learn.repository;
 
-import entity.Token;
+
+import com.raju.spring_security_learn.entity.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

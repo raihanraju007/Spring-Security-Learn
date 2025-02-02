@@ -1,17 +1,20 @@
-package service;
+package com.raju.spring_security_learn.service;
 
-import entity.AuthenticationResponse;
-import entity.Role;
-import entity.Token;
-import entity.User;
+
+
+import com.raju.spring_security_learn.entity.AuthenticationResponse;
+import com.raju.spring_security_learn.entity.Role;
+import com.raju.spring_security_learn.entity.Token;
+import com.raju.spring_security_learn.entity.User;
+import com.raju.spring_security_learn.jwt.JwtService;
+import com.raju.spring_security_learn.repository.TokenRepository;
+import com.raju.spring_security_learn.repository.UserRepository;
 import jakarta.mail.MessagingException;
-import jwt.JwtService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import repository.TokenRepository;
-import repository.UserRepository;
+
 
 import java.util.List;
 
