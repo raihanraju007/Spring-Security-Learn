@@ -42,6 +42,8 @@ public class SecurityConfig {
                                 .hasAnyAuthority("USER","ADMIN","HOTEL")
                                 .requestMatchers("/api/hotel/**")
                                 .hasAuthority("ADMIN")
+                                .requestMatchers("/api/test/**")
+                                .hasAuthority("USER")
                 )
                 .userDetailsService(userService)
                 .sessionManagement(
